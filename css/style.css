@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+
+width: 90%;
+
+display: flex;
+
+justify-content: space-between;
+
+margin-left: 5%;
+
+margin-top: 50px;
+
+margin-bottom: 50px;
+}
+
+.logo{
+
+width: 20%;
+}
+
+nav{
+
+width: 50%;
+}
+
+nav ul{
+    
+display: flex;
+    
+justify-content: end;
+    
+list-style: none;
+}
+nav ul li{
+    margin-left: 90px;
+}
+nav ul li a{
+    
+font-size: 16px;
+    
+text-transform: uppercase;
+    
+text-decoration: none;
+    
+font-family: none;
+}
+
+.banner{
+
+width: 90%;
+
+margin: auto;
+
+}
+
+.banner img{
+
+width: 100%;
+
+margin-top: 20px;
+
+margin-bottom: 20px;
+}
+
+.writting{
+
+width: 80%;
+
+margin: 20px auto;
+}
+.writting h5{
+
+font-weight: 400;
+
+color: #b4ad9e;
+
+text-transform: uppercase;
+
+margin-bottom: 15px;
+
+font-size: 14px;
+
+font-family: "Ubuntu", sans-serif;
+}
+.writting h1{
+
+font-weight: 400;
+
+text-transform: capitalize;
+
+margin-bottom: 15px;
+
+font-size: 30px;
+
+color: #626262;
+
+font-family: "Playfair Display", serif;
+}
+.writting p{
+
+font-weight: 400;
+
+color: #b4ad9e;
+
+margin-bottom: 15px;
+
+font-size: 14px;
+
+font-family: "Playfair Display", serif;
+}
+.writting h4{
+
+font-weight: 400;
+
+color: #b4ad9e;
+
+text-transform: uppercase;
+
+margin-bottom: 15px;
+
+font-size: 14px;
+
+font-family: "Ubuntu", sans-serif;
+}
+
+
+
+.feature{  width: 80%;
+
+    margin: auto;
+    
+    display: flex;
+    
+    justify-content: space-between;
+    
+    flex-wrap: wrap;
+    
+    margin-bottom: 50px;
+
+}
+
+.iteam1{
+    width: 48%;
+
+    margin-bottom: 70px;
+}
+
+.iteam1 img{width: 100%;
+
+}
+.iteam1 h5{font-weight: 400;
+
+    color: #b4ad9e;
+    
+    text-transform: uppercase;
+    
+    margin-bottom: 24px;
+    
+    font-size: 14px;
+    
+    font-family: "Ubuntu", sans-serif;
+
+}
+.iteam1 h1{font-family: "Playfair Display", serif;
+
+    font-weight: 500;
+    
+    color: #696969;
+    
+    text-transform: uppercase;
+    
+    margin-bottom: 25px;
+    
+    font-size: 24px;
+
+}
+.iteam1 p{font-size: 16px;color: #626262;line-height: 22px;margin-bottom: 15px;font-family: "Playfair Display", serif;
+
+}
+
+
+.iteam2{
+    width: 48%;
+
+    margin-bottom: 70px;
+}
+
+.iteam2 img{width: 100%;
+
+}
+.iteam2 h5{font-weight: 400;
+
+    color: #b4ad9e;
+    
+    text-transform: uppercase;
+    
+    margin-bottom: 24px;
+    
+    font-size: 14px;
+    
+    font-family: "Ubuntu", sans-serif;
+
+}
+.iteam2 h1{
+    font-family: "Playfair Display", serif;
+
+    font-weight: 500;
+    
+    color: #696969;
+    
+    text-transform: uppercase;
+    
+    margin-bottom: 25px;
+    
+    font-size: 24px;
+}
+.iteam2 p{font-size: 16px;color: #626262;line-height: 22px;margin-bottom: 15px;font-family: "Playfair Display", serif;
+
+}
+.iteam3{
+    width: 48%;
+
+margin-bottom: 70px;
+}
+.iteam3 img{width: 100%;
+
+}
+.iteam3 h5{font-weight: 400;
+
+    color: #b4ad9e;
+    
+    text-transform: uppercase;
+    
+    margin-bottom: 24px;
+    
+    font-size: 14px;
+    
+    font-family: "Ubuntu", sans-serif;
+
+}
+.iteam3 h1{
+    font-family: "Playfair Display", serif;
+
+    font-weight: 500;
+    
+    color: #696969;
+    
+    text-transform: uppercase;
+    
+    margin-bottom: 25px;
+    
+    font-size: 24px;
+}
+.iteam3 p{font-size: 16px;color: #626262;line-height: 22px;margin-bottom: 15px;font-family: "Playfair Display", serif;
+
+}
+
+
+.iteam4{
+    width: 48%;
+
+    margin-bottom: 70px;
+}
+
+.iteam4 img{width: 100%;
+
+}
+.iteam4 h5{
+    font-weight: 400;
+
+    color: #b4ad9e;
+    
+    text-transform: uppercase;
+    
+    margin-bottom: 24px;
+    
+    font-size: 14px;
+    
+    font-family: "Ubuntu", sans-serif;
+}
+.iteam4 h1{font-family: "Playfair Display", serif;
+
+    font-weight: 500;
+    
+    color: #696969;
+    
+    text-transform: uppercase;
+    
+    margin-bottom: 25px;
+    
+    font-size: 24px;
+
+}
+.iteam4 p{
+    font-size: 16px;color: #626262;line-height: 22px;margin-bottom: 15px;font-family: "Playfair Display", serif;
+}
+
+.green{
+
+height: 500px;
+
+width: 800px;
+
+background: green;
+
+position: relative;
+}
+.red{
+    
+height: 200px;
+    
+width: 200px;
+    
+background: red;
+    
+border-radius: 100px;
+    
+position: absolute;
+    
+top: 50%;
+    
+left: 50%;
+    
+transform: translate(-50%, -50%);
+}
